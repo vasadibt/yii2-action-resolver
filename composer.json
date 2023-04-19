@@ -1,0 +1,28 @@
+{
+  "name": "vasadibt/yii2-action-resolver",
+  "description": "Extension for Yii Framework 2.0 what extending the controllers and you can use simply the action resolvers.",
+  "authors": [
+    {
+      "name": "Tamás Vasadi-Balogh",
+      "email": "tamas.vasadi.balogh@vbsolution.hu"
+    }
+  ],
+  "type": "yii2-extension",
+  "keywords": ["yii", "yii2", "extension", "resolver"],
+  "license": "MIT",
+  "require": {
+    "php": ">=7.4.0",
+    "yiisoft/yii2": "~2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "vasadibt\\actionresolver\\": "src"
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}
